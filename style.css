@@ -1,0 +1,95 @@
+body{
+    background-color:rgba(200, 191, 194, 0.944)
+}
+main{
+    color:rgb(15, 15, 78);
+}
+h1{
+    color:rgb(16, 16, 95);
+}
+button{
+     background-color:rgb(230,252,247);
+    color:black
+   
+}
+.profile {
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+h1 {
+    display: inline-block;
+    border-bottom: 3px solid #1f4e79;
+    padding-bottom: 8px;
+}
+#border{
+     display: inline-block;
+    border-bottom: 3px solid #1f4e79;
+    padding-bottom: 8px;
+}
+#border {
+    margin-bottom: 0;
+}
+
+footer h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Phone Responsive */
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 26px;
+        max-width: 100%;
+    }
+
+    .profile {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    pre {
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        margin: 8px;
+    }
+
+    #border {
+        font-size: 24px;
+        padding-bottom: 6px;
+    }
+
+    footer table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    footer td {
+        width: 50%;
+    }
+
+    footer img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+}
